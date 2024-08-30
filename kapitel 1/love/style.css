@@ -1,0 +1,22 @@
+body {
+    background-color: khaki;
+    background-image: url("./bilder/samuel-arkwright-j85J9F0_By0-unsplash.jpg");
+}
+h1 {
+    color: blue;
+    font-size: 75px;
+    font-family: "Baskervville SC", serif;
+}
+h2 {
+    color: blue;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: rgb(4, 102, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(111, 0, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
