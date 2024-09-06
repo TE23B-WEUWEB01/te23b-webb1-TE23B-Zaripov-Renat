@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+}
+table {
+    background-color: rgb(166, 187, 188);
+    width: 1000px;
+    margin:auto;
+}
+caption {
+    background-color: azure;
+    padding: 30px;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    background-image: url(./bilder/ori_35756_a123080ded10d047d48c29ac095b37c008f312e6_cloth-seamless-patterns.jpg);
+}
+tr {
+
+}
+th{
+    padding: 15px;
+    font-size: 25px;
+    
+}
+td {
+    background-color: rgb(159, 159, 159);
+    padding: 10px;
+}
+img {
+    width: 150px;
+}
