@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+/* Sidans layout */
+body {
+    background-image: url("./bilder/GSFC_20171208_Archive_e001982~orig.jpg");
+    color: white;
+}
+div.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+div.box {
+    background-color: black;
+    padding: 40px;
+}
+/* Sidans innehåll */
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+}
+img {
+    width: 100%;
+}
+p {
+    font-family: "Libre Baskerville", serif;
+
+}

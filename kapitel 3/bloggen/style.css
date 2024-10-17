@@ -1,3 +1,14 @@
+/* Färgpalett */
+:root {
+    /* CSS HEX */
+--fern-green: #4b7f52ff;
+--mantis: #7dd181ff;
+--celadon: #96e8bcff;
+--celadon-2: #b6f9c9ff;
+--nyanza: #c9ffe2ff;
+
+}
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -11,7 +22,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 /* layoutens utseende */
 body {
-
+    background-color: var(--nyanza);
 }
 div.kontainer {
     background-color: green;
@@ -19,12 +30,14 @@ div.kontainer {
     padding: 50px;
     margin: auto;
     margin-top: 20px;
+    background-color: var(--celadon);
 
 }
 div.inlägg {
     background-color: orange;
     padding: 50px;
     margin-bottom: 40px;
+    background-color: var(--mantis);
 
 }
 
