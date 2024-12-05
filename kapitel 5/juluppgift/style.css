@@ -1,0 +1,77 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+.kontainer {
+
+}
+.kontainer2 {
+
+}
+
+.head {
+    text-align: center;
+    
+}
+h1 {
+    
+}
+h2 {
+    
+}
+ul {
+    display: flex;
+    margin: auto;
+    width: 300px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+form {
+
+}
+label {
+
+}
+textarea {
+
+}
+
+button {
+
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+}
+
+.day {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.day.open {
+    background-color: #00ff00;
+    color: black;
+}
