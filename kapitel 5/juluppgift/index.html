@@ -13,26 +13,27 @@
         <h1>🎄Julens Magiska Värld🎄</h1>
         <ul>
             <li><a href="">Hem</a></li>
-            <li><a href="">Om Julen</a></li>
+            <li><a href="./index2.html">Om Julen</a></li>
             <li><a href="">Kontakt</a></li>
         </ul>
     </div>
-    <div class="kontainer">
-        <h2>Julrim</h2>
-        <p>"Julen är här med glitter och ljus, frid och lycka i varje hus."</p>
-        <button>Nytt julrim</button>
+    <div class="kolumner">
+        <div class="kontainer">
+            <h2>Julrim</h2>
+            <p>"Julen är här med glitter och ljus, frid och lycka i varje hus."</p>
+            <button>Nytt julrim</button>
+        </div>
+        <div class="kontainer2">
+            <h2>Skicka Din Önskelista Till Tomten</h2>
+            <form>
+                <label for="wishlist">Önskelista:</label><br>
+                <textarea id="wishlist" name="wishlist" placeholder="Vad önskar du dig i jul?"></textarea>
+                <button type="submit">Skicka till Tomten!</button>
+            </form>
+        </div>
     </div>
-    <div class="kontainer2">
-        <h2>Skicka Din Önskelista Till Tomten</h2>
-        <form>
-            <label for="wishlist">Önskelista:</label>
-            <textarea id="wishlist" name="wishlist" placeholder="Vad önskar du dig i jul?"></textarea>
-            <button type="submit">Skicka till Tomten!</button>
-        </form>
-
     </div>
-    </div>
-    <h2>Julkalender</h2>
+    <h2 class="kalendar">Julkalender</h2>
     <div class="calendar">
         <div class="day" onclick="openDay(this)">1</div>
         <div class="day" onclick="openDay(this)">2</div>
