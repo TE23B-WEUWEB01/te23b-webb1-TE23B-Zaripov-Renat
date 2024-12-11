@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yuji+Mai&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,25 +13,44 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 body.index {
-
+    background-image: url("./bilder/brayden-prato-lA-9rdUobaw-unsplash.jpg");
+    background-position: center;
 }
 body.index2 {
-
+    background-image: url("./bilder/abigail-keenan-8-s5QuUBtyM-unsplash.jpg");
+    background-position: center;
 }
 body.index3 { 
-
+    background-image: url("./bilder/fabio-magalhaes-nmTm7knUnqs-unsplash.jpg");
+    background-position: center;
 }
 body.index4 {
-
+    background-image: url("./bilder/alberto-casetta-REKXJ7JhwiI-unsplash.jpg");
+    background-position: center;
+}
+a {
+    
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #707070;
+    padding: 10px;
+    border-radius: 3px;
+    width: 140px;
+    display: inline-block;
+    box-shadow: 3px 3px 0 #999;
+    text-align: center;
+    margin-top: 7px;
+    font-family: "Agu Display", serif;
 }
 h1 {
-    
+    font-family: "Bebas Neue", sans-serif;
 }
 h2 {
     text-align: center;
+    font-family: "Yuji Mai", serif;
 }
 p {
-
+    padding-bottom: 20px;
 }
 strong {
 
@@ -45,12 +67,47 @@ margin-left: 20px;
 }
 img {
     width: 100%;
+    border-radius: 3%;
 }
 .container {
     margin: auto;
     width: 600px;
-    background-color: gainsboro;
+    background-color: #F9F8F6;
     padding: 20px;
     margin-top: 225px;
-
+    border-radius: 7px;
+    border: 7px solid ;
+    border-color: #BBBDBE;
+    
+   
+}
+.container2 {
+    margin: auto;
+    width: 600px;
+    background-color: #C2C7C1;
+    padding: 20px;
+    margin-top: 225px;
+    border-radius: 7px;
+    border: 7px solid ;
+    border-color: #021C29;
+}
+.container3 {
+    margin: auto;
+    width: 600px;
+    background-color: #7B00C4;
+    padding: 20px;
+    margin-top: 225px;
+    border-radius: 7px;
+    border: 7px solid ;
+    border-color: #0C0115;
+}
+.container4 {
+    margin: auto;
+    width: 600px;
+    background-color: #B4B16A;
+    padding: 20px;
+    margin-top: 225px;
+    border-radius: 7px;
+    border: 7px solid ;
+    border-color: #4D5B23;
 }
