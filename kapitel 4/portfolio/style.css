@@ -60,6 +60,7 @@ li {
 }
 ul {
 margin-left: 20px;
+list-style-type: none;
 }
 .kolumn {
     margin: auto;
