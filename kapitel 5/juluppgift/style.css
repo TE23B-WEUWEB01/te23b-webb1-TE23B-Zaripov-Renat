@@ -76,7 +76,12 @@ li {
 a {
     padding: 5px;
     text-decoration: none;
-    
+}
+a.aktiv {
+    color: blueviolet;
+}
+a:hover {
+    color: blueviolet;
 }
 
 .kolumner {
