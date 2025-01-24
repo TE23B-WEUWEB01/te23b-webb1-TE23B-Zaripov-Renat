@@ -1,0 +1,60 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-image: url("./bilder/image-134.jpg");
+}
+.kontainer {
+    width: 1150px;
+    margin: auto;
+}
+
+
+
+
+/* Meny */
+.meny {
+}
+
+.meny a {}
+
+.meny img {
+    width: 100%;
+}
+
+
+
+/* Sidinnehåll */
+.innehall {
+    background-color: #fff;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+.innehall p {
+    text-align: center;
+}
+
+.kolumner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.oljatyp {}
+.kolumner p {}
+.kolumner img {
+    width: 100%;
+}
+
+
