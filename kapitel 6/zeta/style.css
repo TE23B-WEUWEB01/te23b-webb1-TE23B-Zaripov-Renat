@@ -13,6 +13,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Body */
 body {
     background-image: url("./bilder/image-134.jpg");
+    background-repeat: no-repeat;
+    background-color: #F3F0DD;
+    background-size: contain;
 }
 .kontainer {
     width: 1150px;
@@ -24,37 +27,68 @@ body {
 
 /* Meny */
 .meny {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    padding: 20px 90px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-.meny a {}
+.meny a {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 30px;
+   
+    
+}
 
 .meny img {
-    width: 100%;
+    width: 13%;
+    
 }
 
 
 
 /* Sidinnehåll */
 .innehall {
-    background-color: #fff;
+    background-color: #F9F8F1;
+    padding: 20px;
 }
 h2 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
 }
-.innehall p {
+.innehall p.text {
     text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+    
 }
 
 .kolumner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    
 }
-.oljatyp {}
-.kolumner p {}
+.oljatyp {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.kolumner p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 .kolumner img {
     width: 100%;
+    cursor: pointer;
 }
 
 
