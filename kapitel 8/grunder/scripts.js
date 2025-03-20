@@ -40,7 +40,46 @@
 // Läs in: inkomst, tex 30.000:-
 // läs in: skatt, tex 30%
 // Skriv ut: "Din inkomst efter skatt är xxx med yy% i skatt."
-var brutto = prompt("Vad är din lön före skatt?");
-var skatt = prompt("Vad är din skatt?")
-var inkomst = Number(brutto) * (100 - Number(skatt)) / 100;
-document.writeln("Din inkomst efter skatt är " + inkomst + " med " + skatt + "% i skatt. ");
+// var brutto = prompt("Vad är din lön före skatt?");
+// var skatt = prompt("Vad är din skatt?")
+// var inkomst = Number(brutto) * (100 - Number(skatt)) / 100;
+// document.writeln("Din inkomst efter skatt är " + inkomst + " med " + skatt + "% i skatt. ");
+// -----------------------------------------
+// for (var i = 1; i < 11; i++) { 
+//     document.write(i + "<br>");
+//     }
+// ---------------------------------------------
+// var val = confirm(”Klicka OK för att fortsätta”);
+// while (val) {
+
+// val = confirm(”Klicka OK för att fortsätta”);
+
+// }
+// ---------------------------------------------
+// var loop = true;
+// var rättålder = 15;
+// while(loop == true){
+//     var svar = prompt("Hur gammal är du?")
+//     if(svar >= rättålder){
+//         alert("Grattis du får se filmen")
+//         loop=false
+//     }
+//     else(alert("Du får inte se filmen"))
+// }
+// ----------------------------------------------
+var loop = true;
+while(loop = true) {
+var input = prompt("hur många grader ute är det?")
+if(input<20){
+console.log("det är kallt ute")
+document.write("det är kallt ute")
+}
+else if(input>20){
+console.log("det är varmt")
+document.write("det är varmt")
+}
+
+else{
+console.log("du måste skriva en siffra")
+}
+}
